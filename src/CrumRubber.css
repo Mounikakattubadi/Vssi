@@ -1,0 +1,183 @@
+.text-justify {
+    text-align: justify;
+  }
+  
+
+  /* Responsive Top Image */
+@media (min-width: 300px) and (max-width: 600px) {
+  .abtimg {
+    height: 250px;
+    width: 100%;
+  }
+}
+
+/* Section background and padding */
+.custom-carousel-section {
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Carousel image styling */
+.carousel-image {
+  width: 80%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom carousel controls */
+.custom-control {
+  width: 5%;
+}
+
+.custom-arrow {
+  background-color: #007bff; /* Bootstrap primary */
+  border-radius: 50%;
+  padding: 15px;
+  background-size: 60% 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(1.2);
+  transition: background-color 0.3s ease;
+}
+
+.custom-arrow:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-image {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  .custom-control {
+    width: 8%;
+  }
+
+  .custom-arrow {
+    padding: 10px;
+  }
+}
+
+/* Text justify utility */
+.text-justify {
+  text-align: justify;
+}
+
+/* Enquire button */
+.enquire-btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.enquire-btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* Banner image */
+.crumb-banner-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Section container */
+.crumb-section {
+  background-color: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+  border-radius: 15px;
+  padding: 2rem;
+  color: #222;
+}
+
+/* Text styling */
+.crumb-text h2 {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.crumb-text h5 {
+  color: #16a085;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.crumb-text p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.crumb-text ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.crumb-text ul li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Carousel styling */
+.crumb-carousel {
+  text-align: center;
+}
+
+.crumb-carousel-image {
+  width: 90%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  margin: 0 auto;
+}
+
+/* Carousel controls */
+.crumb-control {
+  width: 6%;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.3));
+}
+
+.crumb-arrow {
+  background-color: #16a085;
+  border-radius: 50%;
+  padding: 16px;
+  background-size: 60% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-color 0.3s ease;
+}
+
+.crumb-arrow:hover {
+  background-color: #117a65;
+}
+
+/* Section headers */
+h2, h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .crumb-carousel-image {
+    width: 100%;
+    max-height: 220px;
+  }
+
+  .crumb-control {
+    width: 12%;
+  }
+}

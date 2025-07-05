@@ -1,0 +1,41 @@
+.contact-us-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.contact-us-container {
+  background-color: #fdfdfd;
+}
+
+.card h5 {
+  color: #007bff;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+/* Contact Hero Section (same style as about-hero) */
+.contact-hero {
+  height: 40vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #00acee, #ca3b9b);
+  color: white;
+  text-align: center;
+}
+
+/* Reuse existing hero-heading and hero-subtext styles */
+.hero-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-subtext {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  max-width: 700px;
+}

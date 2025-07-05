@@ -1,0 +1,110 @@
+/* Carousel Image */
+.carousel-img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+/* About Section Background */
+.about-section {
+  background: url('./images/back.webp') no-repeat center center;
+  background-size: cover;
+}
+
+/* Section Heading in Right Column */
+.section-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Paragraph Style */
+.about-text {
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #000;
+}
+
+/* Limited Image Height in About Section */
+.about-img {
+  max-height: 300px; /* You can adjust this value */
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+/* Products Section Background */
+.products-section {
+  background-color: #a7dff5; /* Light blue background */
+}
+
+/* Heading for Products */
+.products-heading {
+  font-size: 2.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+.products-heading::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #333;
+  margin: 10px auto 0;
+}
+
+/* Product Card Styling */
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card .card-body {
+  text-align: left;
+}
+
+/* Scrolling Gallery Grid */
+.scrolling-container {
+  padding: 1rem 2rem;
+}
+
+.scrolling-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  animation: scrollGrid 40s linear infinite;
+}
+
+.scroll-img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@keyframes scrollGrid {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 0.9rem;
+  }
+
+  .products-heading {
+    font-size: 1.8rem;
+  }
+}

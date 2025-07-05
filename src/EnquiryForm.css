@@ -1,0 +1,124 @@
+/* Ensure full height for html and body */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.contact-hero {
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background:  linear-gradient(135deg, #00acee, #ca3b9b);
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-subtext {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  text-align: center !important;
+}
+
+
+/* Form container and styling */
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+}
+
+/* Form styling */
+form {
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+/* Form labels */
+.form-label {
+  font-size: 1rem;
+}
+
+/* Inputs and textarea */
+input[type='text'],
+input[type='email'],
+textarea {
+  font-size: 1rem;
+  padding: 15px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s ease;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Textarea height override */
+textarea {
+  height: auto;
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Submit button */
+button[type='submit'] {
+  font-size: 1.125rem;
+  padding: 15px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+/* Error message */
+.invalid-feedback {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+    width: 100%;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    font-size: 1rem;
+    padding: 12px;
+    height: 50px;
+  }
+
+  button[type='submit'] {
+    font-size: 1rem;
+    padding: 12px;
+    height: 50px;
+  }
+}

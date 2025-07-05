@@ -1,0 +1,61 @@
+
+/* Section styling */
+.epdm-section {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+/* Carousel image styling */
+.epdm-carousel-image {
+  width: 90%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Carousel navigation control button size */
+.epdm-control {
+  width: 5%;
+}
+
+/* Custom carousel arrow styling */
+.epdm-arrow {
+  background-color: #28a745; /* Bootstrap green */
+  border-radius: 50%;
+  padding: 15px;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(1.2);
+  transition: background-color 0.3s ease;
+}
+
+.epdm-arrow:hover {
+  background-color: #1e7e34; /* Darker green on hover */
+}
+
+/* Justify text content */
+.text-justify {
+  text-align: justify;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .epdm-carousel-image {
+    width: 100%;
+    max-height: 220px;
+  }
+
+  .epdm-control {
+    width: 8%;
+  }
+
+  .epdm-arrow {
+    padding: 10px;
+  }
+}
