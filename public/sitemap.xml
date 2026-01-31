@@ -3,21 +3,21 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://vss.in/</loc>
+    <loc>https://vssi.in/</loc>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <!-- About Page -->
   <url>
-    <loc>https://vss.in/about</loc>
+    <loc>https://vssi.in/about</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <!-- Contact Page -->
   <url>
-    <loc>https://vss.in/ContactUs</loc>
+    <loc>https://vssi.in/ContactUs</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
